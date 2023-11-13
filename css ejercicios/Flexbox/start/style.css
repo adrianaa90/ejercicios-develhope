@@ -1,0 +1,46 @@
+..contenedor-flex{
+  display: flexbox;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+  background-color: blueviolet;
+  padding: 60px;
+ 
+}
+
+img{
+  width: 200px;
+}
+
+.logo{
+ width: 10px;
+}
+.flex-item{
+  width: 200px;
+  height: 450px;
+  background-color: rgb(202, 98, 155);
+}
+
+
+
+.enlace:hover{
+
+  text-decoration: underline;
+  transition: 0.3s;
+  color: #2b2b2b;
+}
+
+.foto{
+ display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+ background-color: blueviolet;
+ height: auto;
+ margin-right: 10px;
+ width: 50px;
+
+}
+
+.futer{
+  align-items: flex-end;
+}
