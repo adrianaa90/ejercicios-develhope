@@ -1,0 +1,39 @@
+.calculadora{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6,1fr);
+  font-weight: bold;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 300px;
+}
+#resultado{
+  grid-column: 1/5;
+  text-align: end;
+  padding-right: 15px;
+  padding-top: 20px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+
+
+}
+#igual{
+grid-column: 4;
+grid-row: 3 /span 4;
+background-color: tomato;
+
+
+}
+.calculo{
+  background-color: rgb(192, 190, 190);
+  
+}
+.boton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+  border: 1px gray solid;
+}
