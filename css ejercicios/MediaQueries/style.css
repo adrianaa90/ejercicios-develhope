@@ -6,8 +6,12 @@ body {
 }
 
 .card {
-    max-width: 100%;
+    width: 100%;
+    max-width: 600px;
     margin: 20px auto;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     overflow: hidden;
 }
 
 img {
@@ -18,13 +22,13 @@ img {
 /* Tablet Styles */
 @media (max-width: 768px) {
     .card {
-        max-width: 80%;
+        max-width: 400px;
     }
 }
 
 /* Mobile Styles */
 @media (max-width: 375px) {
     .card {
-        max-width: 100%;
+        max-width: 300px;
     }
 }
