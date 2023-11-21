@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+    .card {
+        max-width: 80%;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 375px) {
+    .card {
+        max-width: 100%;
+    }
+}

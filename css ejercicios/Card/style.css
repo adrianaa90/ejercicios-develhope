@@ -1,0 +1,51 @@
+header {
+    border: 2px solid rgb(172, 162, 162);
+    text-align:justify
+  }
+
+  main {
+    border: 2px solid rgb(194, 177, 177);
+    text-align:justify;
+  }
+
+  section {
+    border: 1px solid rgb(179, 153, 153);
+    text-align:justify;
+    
+   
+  }
+
+  footer {
+    border: 2px solid rgb(165, 153, 153);
+    text-align:justify;
+    
+    
+  }
+
+  img{
+    width: 390px;
+    height: 280px;
+
+  }
+
+.enlaces{
+  display: flex;
+  margin-right: 25px;
+ 
+}
+
+
+  ::content{
+    border: 5px solid;
+    text-align: center;
+  }
+  content{
+    text-align: center;
+    width: 20%;
+    height: 30%;
+   
+  }
+  section{
+    width: 30%;
+    height: 80%;
+  }

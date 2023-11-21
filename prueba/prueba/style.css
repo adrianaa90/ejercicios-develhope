@@ -1,0 +1,85 @@
+.grid-container{
+    display: grid;
+    gap:10px;
+    grid-template-areas: 
+    "navbar"
+    "main"
+    "sidebar"
+    "footer";
+
+}
+html{
+    height: 100%;
+}
+
+
+body{
+    font-family: "public sans" , sans-serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+    background-color: palevioletred;
+
+}   
+
+.navbar{
+    grid-area: navbar;
+    background-color: aqua;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+.main{
+    grid-area: main;
+    background-color: blueviolet;
+    float:left;
+    width: 80%;
+    height: 81%;
+    min-height: 500px;
+   
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(187, 157, 157);
+  width: 10%;
+   float: right;
+   width: calc(20% - 20px);
+   min-height: 484px;
+   padding: 10px;
+
+}
+
+
+footer{
+    background-color: rgb(32, 5, 153);
+    color: white;
+    w
+   text-align: center;;
+  
+}
+
+
+
+UL{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ list-style: none;
+ text-align: center;
+ 
+}
+
+LI{
+   display: inline;
+   text-align: center;
+   margin: 0 10PX 00;
+   line-height:normal;
+}
+
+
+
+
+
+
+
