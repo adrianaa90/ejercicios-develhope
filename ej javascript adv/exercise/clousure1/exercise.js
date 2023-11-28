@@ -9,3 +9,5 @@ function printName() {
 }
 
 const innerFunction = printName();
+
+console.log(innerFunction());
