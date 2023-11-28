@@ -11,7 +11,4 @@ setTimeout(()=> {console.log
 
 
 
-
-
-return inner
-(printname());
+console.log(innerFunction());
