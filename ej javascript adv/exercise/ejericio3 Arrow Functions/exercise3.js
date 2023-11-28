@@ -10,4 +10,8 @@ const multiply =  (a, b) => a * b;
 const divide = (a, b) => a / b;
 
 
-const log = (value) => console.log(value);
+const log = value => console.log(value);
+
+const result = divide(subtract(multiply(sum(2, 4), sum(5, 2)), 2),5);
+
+console.log(result);
