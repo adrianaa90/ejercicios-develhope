@@ -1,59 +1,54 @@
 body {
-    margin: 0;
+    margin: 10px;
+    padding: 10px;
     font-family: 'Arial', sans-serif;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 15px;
-}
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 1.5rem;
-}
-
-.menu {
-    list-style: none;
-    display: flex;
-}
-
- li {
-    margin-right: 20px;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #fff;
-}
-hover {
-    text-decoration: underline;
+h1{
+    color: white;
     
 }
 
 
+
+#Dropdwon{
+border-style: none;
+background-color: rgba(173, 55, 55, 0.021);
+border: none;
+color: rgb(214, 214, 214);
+}
+
+
+.navbar {
+    display: flex;
+    
+    align-items: center;
+}
+
+
+
+
+
+ li {
+    margin-right: 20px;
+    color: white;
+}
+
+
+
+    
+
+
+
 .navbar{
     grid-area: navbar;
-    text-align: center;
-    line-height: 50px; 
-    background-color: palevioletred;
+  
+    background-color:rgb(43, 51, 56);
 
 }
 
-UL{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
- list-style: none;
- text-align: center;
- 
-}
+
 
 LI{
    display: inline;
@@ -62,20 +57,38 @@ LI{
    line-height:normal;
 }
 
-
-
-.btn {
-    background-color: #ddd;
-    border: none;
-    color: black;
-    padding: 16px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition: 0.3s;
-  }
-  
-  .btn:hover {
-    background-color: #1c691f;
+button:hover {
+    
+    background-color: green;
     color: white;
+    
   }
+
+  button{
+    background-color:rgb(43, 51, 56);
+    color: #0eb91d;
+    border-color: #0eb91d;
+    margin:10px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 90px;
+    height:32px;
+   
+    
+  }
+
+:disabled{
+   border: none;
+    padding: 3px;
+    margin: 10px;
+    background-color:rgba(245, 222, 179, 0);
+   color: rgb(116, 118, 119);
+  }
+
+
+.Search{
+    width: 190px;
+    height: 28px;
+    border-radius: 5px;
+    margin-left: auto;
+}
