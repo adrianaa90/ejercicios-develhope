@@ -1,33 +1,35 @@
 .contenedor-flex{
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  height: 100px;
+  height: 100%;
   width: 200px;
-
-  padding: 60px;
  flex-direction: column;
 }
 
+body{
+  background-color: #755873;
+}
+p{
+  font-size: 10px;
+  text-align: center;
+  margin: 2%;
+ 
+}
 img{
-  width: 200px;
+width: 150px;
+height: 120px;
+align-items: center;
+margin: 20px;
 }
 
 
-
-.logo{
- width: 10px;
-}
 .flex-item{
   width: 200px;
-  height: 450px;
+ height: 450px;
   background-color: rgb(202, 98, 155);
 }
 
-.body{
-  margin: 0;
-  
-}
+
 
 .enlace:hover{
 
@@ -36,23 +38,18 @@ img{
   color: #2b2b2b;
 }
 
-.foto{
- display: flex;
-justify-content: flex-end;
-align-items: flex-end;
- background-color: rgb(127, 66, 184);
- height: auto;
- margin-right: 10px;
- width: 50px;
-
-}
-
-.foto{
-  background-attachment: fixed;
+ul,li{
+  text-align:left;
+  list-style-type: none ;
   
+}
+icono{
+
+justify-content:flex-end;
+align-content: end;
 }
 
 .footer{
-  align-items: flex-end;
-
+ justify-content: flex-end;
+ align-self: flex-end;
 }
