@@ -1,0 +1,41 @@
+body{
+    width: 60em;
+    margin: 0 auto;
+}
+
+section{
+    padding: 2em;
+    margin: 2em;
+}
+
+#green{
+    background-color: green;
+   
+}
+
+#orange{
+    background-color: orange;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    background-color: white;
+    padding: 1em;
+    display: block;
+    margin: 1em;
+}
