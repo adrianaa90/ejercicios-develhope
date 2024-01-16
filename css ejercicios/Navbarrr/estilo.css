@@ -109,7 +109,7 @@ button:hover {
 
 
 .menu-icon {
-    font-size: 24px;
+    font-size: 150px;
     cursor: pointer;
    display: none;
 }
@@ -122,6 +122,10 @@ button:hover {
 @media only screen and (max-width: 767px) {
     .menu-icon {
       display: block;
+    }
+
+    .navbar{
+        display: none;
     }
 }
 
