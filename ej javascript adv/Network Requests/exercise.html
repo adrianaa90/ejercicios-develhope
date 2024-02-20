@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+</head>
+<body>
+  <div id="container"></div>
+
+  <script>
+    async function fetchTodo() {
+      const todoId = 4;
+      const apiUrl = `https://jsonplaceholder.typicode.com/todos/${todoId}`;
+
+      try {
+        const response = await fetch(apiUrl);
+
+        if (!response.ok) {
+          throw new Error(`Failed to fetch Todo with ID ${todoId}`);
+        }
+
+        const todo = await response.json();
+        return todo;
+      } catch (error) {
+        console.error(error.message);
+        return null;
+      }
+    }
+
+    function createTodoElements(todo) {
+      const container = document.getElementById('container');
+
+      if (!container || !todo) {
+        console.error('Container or todo not available.');
+        return;
+      }
+
+      const h2Element = document.createElement('h2');
+      h2Element.textContent = todo.title;
+
+      const checkboxElement = document.createElement('input');
+      checkboxElement.type = 'checkbox';
+      checkboxElement.checked = todo.completed;
+
+      container.appendChild(h2Element);
+      container.appendChild(checkboxElement);
+    }
+
+    async function displayTodo() {
+      const todo = await fetchTodo();
+      createTodoElements(todo);
+    }
+
+   
+    displayTodo();
+  </script>
+</body>
+</html>
